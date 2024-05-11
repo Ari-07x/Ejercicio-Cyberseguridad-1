@@ -1,0 +1,12 @@
+RESOLUTION.
+Mtodo empleado: 
+Utilizando la herramienta openssl dgst -md5 para corroborar los hash generados para cada uno de los archivos. El resultado fue el siguiente:
+-copia.sh --> 90965b0eb20e68b7d0b59accd2a3b4fd      [V]
+-log.txt --> f2b0428b975452afbc641e46a042231b       [X]
+-pass.txt --> 6d5e43a730490d75968279b6adbd79ec      [V]
+-plan-A.txt --> 129ea0c67567301df1e1088c9069b946    [V]
+-plan-B.txt --> 4e9878b1c28daf4305f17af5537f062a    [V]
+-script.py --> 66bb9ec43660194bc066bd8b4d35b151     [V]
+
+
+Conforme a esto puede deducirse que el archivo log.txt  ha sido modificado en relacion con la muestra base, por lo que su integridad se ha comprometido.

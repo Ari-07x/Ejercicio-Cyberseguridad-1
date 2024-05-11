@@ -10,3 +10,6 @@ Utilizando la herramienta openssl dgst -md5 para corroborar los hash generados p
 
 
 Conforme a esto puede deducirse que el archivo log.txt  ha sido modificado en relacion con la muestra base, por lo que su integridad se ha comprometido.
+
+
+Ariel Micoli.

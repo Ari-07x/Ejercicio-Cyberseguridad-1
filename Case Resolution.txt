@@ -1,6 +1,6 @@
-RESOLUTION.
-Mtodo empleado: 
-Utilizando la herramienta openssl dgst -md5 para corroborar los hash generados para cada uno de los archivos. El resultado fue el siguiente:
+RESOLUCIÓN.
+Método empleado: 
+Utilicé la herramienta de comando "openssl dgst -md5" que viene incorporada en kali linux para corroborar los hash generados para cada uno de los archivos. El resultado fue el siguiente:
 -copia.sh --> 90965b0eb20e68b7d0b59accd2a3b4fd      [V]
 -log.txt --> f2b0428b975452afbc641e46a042231b       [X]
 -pass.txt --> 6d5e43a730490d75968279b6adbd79ec      [V]
@@ -9,7 +9,11 @@ Utilizando la herramienta openssl dgst -md5 para corroborar los hash generados p
 -script.py --> 66bb9ec43660194bc066bd8b4d35b151     [V]
 
 
-Conforme a esto puede deducirse que el archivo log.txt  ha sido modificado en relacion con la muestra base, por lo que su integridad se ha comprometido.
+Conforme a esto puede deducirse que el archivo log.txt  ha sido modificado en relacion con la muestra base, por lo que objetivamente la  integridad de ese archivo se ha comprometido.
+
+
+
+
 
 
 Ariel Micoli.
